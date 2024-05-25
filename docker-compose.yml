@@ -34,7 +34,7 @@ services:
     ports:
       - '8000:80'
     restart: always
-        volumes: [
+    volumes: [
       './:/var/www/html',
       './php_ini:/usr/local/etc/php/custom.d'
     ]
